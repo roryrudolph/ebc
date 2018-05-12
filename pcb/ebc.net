@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/rory/Projects/ebc/pcb/ebc.sch)
-    (date "Fri 11 May 2018 05:49:24 PM EDT")
+    (date "Sat 12 May 2018 02:32:01 PM EDT")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -707,10 +707,10 @@
         (pin (num 4) (name VOUT) (type output))
         (pin (num 5) (name LX) (type BiDi)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical rorycad)
       (uri /home/rory/Projects/rorycad/rorycad.lib)))
   (nets
@@ -894,7 +894,7 @@
       (node (ref U1) (pin 3))
       (node (ref C1) (pin 2))
       (node (ref U1) (pin 2)))
-    (net (code 51) (name /D2NEG_TO_D1POS)
+    (net (code 51) (name /DIODENET)
       (node (ref D2) (pin 1))
       (node (ref D1) (pin 2)))
     (net (code 52) (name /R11NEG_TO_D2POS)

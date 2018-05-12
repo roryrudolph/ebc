@@ -80,9 +80,9 @@ Text GLabel 6450 4650 0    60   Input ~ 0
 GND
 Text GLabel 6450 2550 0    60   Input ~ 0
 BTND
-Text GLabel 6450 2450 0    60   Input ~ 0
-BTNR
 Text GLabel 6450 2350 0    60   Input ~ 0
+BTNR
+Text GLabel 6450 2450 0    60   Input ~ 0
 BTNL
 Text GLabel 6450 2250 0    60   Input ~ 0
 BTNU

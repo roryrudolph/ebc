@@ -1794,7 +1794,7 @@ GND
 Wire Wire Line
 	4900 3400 4800 3400
 Text Label 4100 4850 3    60   ~ 0
-D2NEG_TO_D1POS
+DIODENET
 Wire Wire Line
 	4100 4650 4100 4850
 Connection ~ 4100 4650
